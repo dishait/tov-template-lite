@@ -1,10 +1,11 @@
 {
 	"version": "0.0.1",
-	"name": "tov-lite",
-	"description": "description",
 	"main": "./dist/index.js",
+	"name": "tov-template-lite",
+	"description": "非常轻量现代化 vite + vue3 模板",
 	"scripts": {
 		"dev": "vite",
+		"test": "vitest",
 		"build": "vite build",
 		"preview": "vite preview"
 	},
@@ -34,10 +35,13 @@
 		"nprogress": "^0.2.0",
 		"pinia": "^2.0.13",
 		"unocss": "^0.31.12",
+		"unplugin-auto-import": "^0.7.1",
 		"unplugin-vue-components": "^0.19.3",
 		"vite": "^2.9.5",
+		"vite-plugin-compression": "^0.5.1",
 		"vite-plugin-pages": "^0.23.0",
 		"vite-plugin-use-modules": "^1.1.0",
+		"vitest": "^0.9.3",
 		"vue": "^3.2.33",
 		"vue-router": "^4.0.14"
 	}
