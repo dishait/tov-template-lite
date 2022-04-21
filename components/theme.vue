@@ -5,13 +5,11 @@ import { useDark, useToggle } from '@vueuse/core'
 const isDark = useDark()
 const toggleDark = useToggle(isDark)
 
-const msg = computed(() =>
-	isDark.value ? 'dark' : 'light'
-)
+const msg = computed(() => (isDark.value ? 'dark' : 'light'))
 </script>
 
 <template>
-	<div @click="toggleDark()" class="cursor-pointer">
-		{{ msg }}
-	</div>
+  <div @click="toggleDark()" class="cursor-pointer">
+    <div class="icon-btn" i-carbon-sun dark:i-carbon-moon></div>
+  </div>
 </template>
