@@ -1,11 +1,5 @@
 /* 全局 css */
 
-html {
-	transition-duration: 150ms;
-	transition-timing-function: ease-in-out;
-	transition-property: color, background-color;
-}
-
 html.dark {
 	color: #e5e7eb;
 	background-color: #121212;
