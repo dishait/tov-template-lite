@@ -17,7 +17,6 @@ export default defineConfig({
 	plugins: [
 		Vue(),
 		Unocss(),
-
 		Pages({
 			dirs: 'pages'
 		}),
