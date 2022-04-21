@@ -1,0 +1,44 @@
+{
+	"version": "0.0.1",
+	"name": "tov-lite",
+	"description": "description",
+	"main": "./dist/index.js",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/markthree/tov-template-with-nuxt-style.git"
+	},
+	"keywords": [
+		"vue",
+		"nuxt",
+		"tov",
+		"vite",
+		"template"
+	],
+	"author": {
+		"name": "markthree",
+		"email": "1801982702@qq.com",
+		"url": "https://github.com/markthree"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^17.0.25",
+		"@types/nprogress": "^0.2.0",
+		"@vitejs/plugin-vue": "^2.3.1",
+		"@vueuse/core": "^8.3.0",
+		"modern-css-reset": "^1.4.0",
+		"nprogress": "^0.2.0",
+		"pinia": "^2.0.13",
+		"unocss": "^0.31.12",
+		"unplugin-vue-components": "^0.19.3",
+		"vite": "^2.9.5",
+		"vite-plugin-pages": "^0.23.0",
+		"vite-plugin-use-modules": "^1.1.0",
+		"vue": "^3.2.33",
+		"vue-router": "^4.0.14"
+	}
+}
