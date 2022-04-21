@@ -1,0 +1,10 @@
+{
+	"recommendations": [
+		"johnsoncodehk.volar",
+		"steoates.autoimport",
+		"usernamehw.errorlens",
+		"esbenp.prettier-vscode",
+		"formulahendry.auto-close-tag",
+		"formulahendry.auto-rename-tag"
+	]
+}
