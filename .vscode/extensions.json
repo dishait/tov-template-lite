@@ -1,5 +1,7 @@
 {
 	"recommendations": [
+		"antfu.unocss",
+		"antfu.iconify",
 		"johnsoncodehk.volar",
 		"steoates.autoimport",
 		"usernamehw.errorlens",
