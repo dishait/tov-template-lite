@@ -1,5 +1,5 @@
 {
-	"version": "0.1.1",
+	"version": "0.2.1",
 	"main": "./dist/index.js",
 	"name": "tov-template-lite",
 	"description": "非常轻量现代化 vite + vue3 模板",
