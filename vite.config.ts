@@ -4,6 +4,7 @@ import { defineConfig } from 'vite'
 import Vue from '@vitejs/plugin-vue'
 import Pages from 'vite-plugin-pages'
 import Icons from 'unplugin-icons/vite'
+import Removelog from 'vite-plugin-removelog'
 import Modules from 'vite-plugin-use-modules'
 import Compression from 'vite-plugin-compression'
 import AutoImport from 'unplugin-auto-import/vite'
@@ -22,6 +23,7 @@ export default defineConfig({
 			autoInstall: true
 		}),
 		Unocss(),
+		Removelog(),
 		Pages({
 			dirs: 'pages'
 		}),
