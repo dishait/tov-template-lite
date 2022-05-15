@@ -16,7 +16,7 @@ specifiers:
   vite: ^2.9.8
   vite-plugin-compression: ^0.5.1
   vite-plugin-pages: ^0.23.0
-  vite-plugin-removelog: ^0.0.1
+  vite-plugin-removelog: ^0.0.3
   vite-plugin-use-modules: ^1.1.0
   vitest: ^0.10.4
   vue: ^3.2.33
@@ -38,7 +38,7 @@ devDependencies:
   vite: 2.9.8
   vite-plugin-compression: 0.5.1_vite@2.9.8
   vite-plugin-pages: 0.23.0_vite@2.9.8
-  vite-plugin-removelog: 0.0.1_vue@3.2.33
+  vite-plugin-removelog: 0.0.3_vue@3.2.33
   vite-plugin-use-modules: 1.1.0_vue@3.2.33
   vitest: 0.10.4
   vue: 3.2.33
@@ -66,6 +66,8 @@ packages:
     resolution: {integrity: sha512-n2Q6i+fnJqzOaq2VkdXxy2TCPCWQZHiCo0XqmrCvDWcZQKRyZzYi4Z0yxlBuN0w+r2ZHmre+Q087DSrw3pbJDQ==}
     engines: {node: '>=6.0.0'}
     hasBin: true
+    dependencies:
+      '@babel/types': 7.17.10
     dev: true
 
   /@babel/types/7.17.10:
@@ -2124,8 +2126,8 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-removelog/0.0.1_vue@3.2.33:
-    resolution: {integrity: sha512-Twv/77DqHGc31k/hNFG6zrwX1LWkZx4wHdwEuUWl6aaKDvd4MxR9lyJ+3yRGJl3O0ktt+N/H58kMhNqESgo0IA==}
+  /vite-plugin-removelog/0.0.3_vue@3.2.33:
+    resolution: {integrity: sha512-0qM+VOZEH88kqQj2UgYBLaSrFnMhrdOExB+HZkZZruaWbF6MuampGlkxDSnRPKz6meHSZH/jOMUN4Gbyi8E4Lw==}
     dependencies:
       gogocode: 1.0.53_vue@3.2.33
     transitivePeerDependencies:
