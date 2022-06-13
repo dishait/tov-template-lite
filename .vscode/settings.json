@@ -5,6 +5,8 @@
 	"editor.formatOnSave": true,
 	// 默认格式化选择 prettier,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	// 忽略 css @ 警告
+	"css.lint.unknownAtRules": "ignore",
 	"[jsonc]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
