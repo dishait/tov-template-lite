@@ -28,24 +28,24 @@
 	"license": "MIT",
 	"devDependencies": {
 		"@iconify-json/carbon": "^1.1.5",
-		"@types/node": "^17.0.41",
+		"@types/node": "^18.0.0",
 		"@types/nprogress": "^0.2.0",
 		"@vitejs/plugin-vue": "^2.3.3",
-		"@vueuse/core": "^8.6.0",
+		"@vueuse/core": "^8.7.4",
 		"modern-css-reset": "^1.4.0",
 		"nprogress": "^0.2.0",
 		"pinia": "^2.0.14",
-		"unocss": "^0.38.1",
-		"unplugin-auto-import": "^0.8.7",
-		"unplugin-icons": "^0.14.3",
+		"unocss": "^0.39.3",
+		"unplugin-auto-import": "^0.8.8",
+		"unplugin-icons": "^0.14.5",
 		"unplugin-vue-components": "^0.19.6",
-		"vite": "^2.9.10",
+		"vite": "^2.9.12",
 		"vite-plugin-compression": "^0.5.1",
-		"vite-plugin-pages": "^0.23.0",
+		"vite-plugin-pages": "^0.24.2",
 		"vite-plugin-removelog": "^0.0.4",
 		"vite-plugin-use-modules": "^1.1.0",
-		"vitest": "^0.14.1",
+		"vitest": "^0.15.1",
 		"vue": "^3.2.37",
-		"vue-router": "^4.0.15"
+		"vue-router": "^4.0.16"
 	}
 }
