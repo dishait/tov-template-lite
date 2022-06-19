@@ -7,6 +7,7 @@
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	// 忽略 css @ 警告
 	"css.lint.unknownAtRules": "ignore",
+	"editor.linkedEditing": true,
 	"[jsonc]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
