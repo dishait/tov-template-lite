@@ -1,9 +1,10 @@
-import routes from '~pages'
 import type { App } from 'vue'
-import { createRouter, createWebHistory } from 'vue-router'
+import {
+	createRouter,
+	createWebHistory
+} from 'vue-router/auto'
 
 export const router = createRouter({
-	routes,
 	history: createWebHistory()
 })
 
