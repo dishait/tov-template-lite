@@ -6,6 +6,7 @@ import Icons from 'unplugin-icons/vite'
 import Removelog from 'vite-plugin-removelog'
 import Modules from 'vite-plugin-use-modules'
 import VueRouter from 'unplugin-vue-router/vite'
+import VueMarcos from 'unplugin-vue-macros/vite'
 import Compression from 'vite-plugin-compression'
 import AutoImport from 'unplugin-auto-import/vite'
 import IconsResolver from 'unplugin-icons/resolver'
@@ -19,6 +20,9 @@ export default defineConfig({
 	},
 	plugins: [
 		Vue(),
+		VueMarcos({
+			defineOptions: true
+		}),
 		Icons({
 			autoInstall: true
 		}),
